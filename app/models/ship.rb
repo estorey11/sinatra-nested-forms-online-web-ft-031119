@@ -3,7 +3,7 @@ class Ship
   @@all=[]
   
   def initialize(args)
-    
+    @name=args[:name]
     @@all << self
   end
   
